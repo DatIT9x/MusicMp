@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/banner"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:textColor="#ffff"
+        android:textSize="30sp"
+        android:text="LOGIN HERE"
+        android:id="@+id/textviewlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:textColorHint="#fff"
+        android:background="@drawable/maunen"
+        android:inputType="textEmailAddress"
+        android:id="@+id/edte1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="30dp"
+        android:drawableEnd="@drawable/email2"
+        android:drawableRight="@drawable/email2"
+        android:hint="@string/edte1" />
+
+
+    <EditText
+        android:textColorHint="#fff"
+        android:layout_below="@id/edte1"
+        android:background="@drawable/maunen"
+        android:inputType="textPassword"
+        android:id="@+id/edte2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:drawableRight="@drawable/key"
+        android:drawableEnd="@drawable/key"
+        android:hint="@string/edte2" />
+
+        <Button
+            android:textColor="#fff"
+            android:layout_marginTop="25dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/edte2"
+            android:background="@drawable/vien"
+            android:id="@+id/btnlogin"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:text="@string/btnlogin"
+            android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btnlogin"
+        android:id="@+id/linerlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    <TextView
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:textColor="#FFFF"
+        android:textSize="15sp"
+        android:text="To Register New Account  -->  "
+        android:id="@+id/taotaikhoan"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/btnsign"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/vien1"
+        android:textColor="#FFFFFFFF"
+        android:text="Click Here"
+        android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

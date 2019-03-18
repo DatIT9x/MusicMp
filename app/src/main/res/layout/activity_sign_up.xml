@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b2"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:textColor="#fff"
+        android:id="@+id/textlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="30sp" />
+
+        <EditText
+            android:drawableEnd="@drawable/email2"
+            android:drawableRight="@drawable/email2"
+            android:background="@drawable/maunen"
+            android:layout_marginRight="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="220dp"
+            android:id="@+id/edtemail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColorHint="#fff"
+            android:hint="@string/edtemail" />
+
+
+    <EditText
+        android:drawableEnd="@drawable/key"
+        android:drawableRight="@drawable/key"
+        android:background="@drawable/maunen"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/edtemail"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:id="@+id/edtpass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColorHint="#fff"
+        android:hint="@string/edtpass" />
+
+    <EditText
+        android:background="@drawable/maunen"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtcpass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:textColorHint="#fff"
+       android:layout_below="@id/edtpass"
+        android:hint="@string/edtcpass" />
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_below="@+id/edtcpass"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:gravity="center">-->
+
+        <Button
+            android:textColor="#fff"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/vien"
+            android:layout_below="@id/edtcpass"
+            android:id="@+id/btnsign1"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:text="@string/btnsign1" />
+
+        <Button
+            android:textColor="#fff"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/vien"
+            android:layout_below="@id/btnsign1"
+            android:id="@+id/btnlogin1"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:text="@string/btnlogin1" />
+    <!--</LinearLayout>-->
+
+
+</RelativeLayout>

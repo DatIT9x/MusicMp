@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MusicMp3</string>
+    <string name="menuSearch">Search</string>
+    <string name="textview">Thư viện nhạc</string>
+    <string name="Settings">Cài đặt</string>
+    <string name="Exit">Thoát</string>
+    <string name="textviewTen">Tên bài hát</string>
+    <string name="textviewTimeE">00:00</string>
+    <string name="textviewTimeS">00:00</string>
+    <string name="c">Image</string>
+    <string name="a">Image</string>
+    <string name="c1">Image</string>
+    <string name="c2">Image</string>
+    <string name="c3">Image</string>
+    <string name="c4">Image</string>
+    <string name="c5">Image</string>
+    <string name="Textview">hello</string>
+    <string name="txt1">Title</string>
+    <string name="txt2">Ten</string>
+    <string name="Textsong">Tên bài hát</string>
+    <string name="btnsign">Click Here</string>
+    <string name="btnlogin">LOGIN</string>
+    <string name="edte1">E-mail</string>
+    <string name="edte2">Mật khẩu</string>
+    <string name="edtemail">Email</string>
+    <string name="edtpass">Mật khẩu</string>
+    <string name="edtcpass">Nhập lại mật khẩu</string>
+    <string name="btnsign1">Register</string>
+    <string name="btnlogin1">Login</string>
+    <string name="g">Image</string>
+    <string name="g1">Image</string>
+    <string name="g2">Image</string>
+    <string name="g3">Image</string>
+    <string name="g4">Image</string>
+    <string name="g5">Image</string>
+    <string name="g6">Image</string>
+    <string name="g7">Image</string>
+    <string name="g8">Image</string>
+    <string name="ok">Image</string>
+
+
+</resources>

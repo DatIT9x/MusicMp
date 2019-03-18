@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ViewFlipper
+        android:id="@+id/viewfipper"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <ImageView
+            android:contentDescription="@string/g8"
+            android:scaleType="centerCrop"
+            android:src="@drawable/g"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:contentDescription="@string/g7"
+            android:scaleType="centerCrop"
+            android:src="@drawable/g1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:contentDescription="@string/g6"
+            android:scaleType="centerCrop"
+            android:src="@drawable/g2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:contentDescription="@string/g5"
+            android:scaleType="centerCrop"
+            android:src="@drawable/g3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:contentDescription="@string/g4"
+            android:scaleType="centerCrop"
+            android:src="@drawable/g4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:contentDescription="@string/g3"
+            android:scaleType="centerCrop"
+            android:src="@drawable/g5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:contentDescription="@string/g2"
+            android:scaleType="centerCrop"
+            android:src="@drawable/g6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:contentDescription="@string/g1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/g7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:contentDescription="@string/g"
+            android:scaleType="centerCrop"
+            android:src="@drawable/g8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:contentDescription="@string/ok"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ok"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </ViewFlipper>
+    <ListView
+        android:background="@drawable/anhnen2"
+        android:layout_below="@id/viewfipper"
+        android:id="@+id/listviewbaihat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</RelativeLayout>
